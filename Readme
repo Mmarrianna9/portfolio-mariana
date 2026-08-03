@@ -1,0 +1,60 @@
+# Portfolio Personale - Mariana Tabacaru
+
+Benvenuto nel repository del mio portfolio professionale. Sono una **Junior Full Stack Developer & Web Designer**, appassionata della creazione di applicazioni web moderne, performanti e curate nei minimi dettagli, dall'interfaccia utente alla gestione del database.
+
+---
+
+## 🚀 Panoramica del Progetto
+Questo portfolio è una **Single Page Application (SPA)** sviluppata per raccogliere e presentare i miei progetti principali, mettere in risalto le mie competenze tecniche e offrire un punto di contatto diretto per clienti e opportunità lavorative.
+
+---
+
+## 🛠️ Stack Tecnologico
+Il portfolio e i progetti correlati sfruttano le seguenti tecnologie:
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Tailwind CSS
+* **Backend & Server:** Node.js, Java, Spring Boot, Python
+* **Database & Strumenti:** MySQL, XAMPP, Git, GitHub, Vercel
+
+---
+
+## 📂 Struttura del Portfolio (Sezioni)
+
+1. **Hero Section (Presentazione):** 
+   - Nome in evidenza e titolo professionale.
+   - Breve tag line e pulsanti rapidi per esplorare i lavori o mettersi in contatto.
+2. **Chi Sono:**
+   - Cenni sul mio percorso professionale, la transizione verso lo sviluppo web e la cura per il design funzionale.
+3. **Competenze (Skills):**
+   - Elenco dettagliato delle tecnologie frontend, backend e database padroneggiate.
+4. **Vetrina Progetti (Projects):**
+   - **NovaInfissi:** Sito web corporate con calcolatore di preventivi interattivo (React).
+   - **New Hair Style:** Applicazione gestionale per barber shop con sistema di prenotazione appuntamenti (React + Spring Boot).
+   - **Rent-Car:** Piattaforma full-stack per il noleggio auto (Java + React).
+5. **Contatti:**
+   - Link diretti ai profili professionali (GitHub, LinkedIn) e canali di comunicazione rapida.
+
+---
+
+## ⚙️ Installazione ed Esecuzione Locale
+
+Se desideri clonare e testare il progetto in locale:
+
+1. Clona la repository:
+   ```bash
+   git clone [https://github.com/Mmarrianna9/tuo-portfolio.git](https://github.com/Mmarriann
+   
+   portfolio/
+├── public/                 <-- Metti qui eventuali immagini o il tuo CV in PDF
+├── src/
+│   ├── components/         <-- La cartella dei tuoi blocchi del sito
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx             <-- Assembla tutti i componenti
+│   ├── main.jsx            <-- Punto di ingresso di React
+│   └── index.css           <-- Stili generali / Tailwind o CSS pulito
+├── index.html              <-- Qui cambi il titolo in "Sviluppo & Design | Mariana"
+├── package.json
+└── README.md               <-- Quello che abbiamo fatto prima
