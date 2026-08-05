@@ -3,6 +3,12 @@ import React from 'react';
 function Projects() {
   const projectList = [
     {
+      title: "EdilNova",
+      description: "Sito vetrina moderno, responsive e ottimizzato, progettato per dare un'identità digitale professionale nel settore edile e dei serramenti. Struttura pensata per valorizzare i servizi e facilitare il contatto diretto.",
+      techs: ["React", "HTML", "CSS", "JavaScript", "Vercel"],
+      link: "https://edilnova-site.vercel.app/"
+    },
+    {
       title: "NovaInfissi",
       description: "Sito web corporate dal design pulito e moderno, progettato per un'azienda di infissi. Include sezioni vetrina ottimizzate e un calcolatore di preventivi interattivo pensato per migliorare l'esperienza e l'interazione dell'utente.",
       techs: ["React", "Tailwind CSS", "Vite"],
