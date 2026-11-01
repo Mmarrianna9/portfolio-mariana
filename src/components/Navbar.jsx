@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,13 +16,19 @@ function Navbar() {
           <a href="#about" className="hover:text-sky-400 transition-colors">Chi Sono</a>
           <a href="#skills" className="hover:text-sky-400 transition-colors">Competenze</a>
           <a href="#projects" className="hover:text-sky-400 transition-colors">Progetti</a>
+          <Link
+            to="/graphic-design"
+            className="hover:text-sky-400 transition-colors"
+          >
+            Graphic Design
+          </Link>
           <a href="#contact" className="px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-500 transition-all shadow-md">
             Contattami
           </a>
         </div>
 
         {/* Pulsante Menu Mobile */}
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-slate-300 hover:text-white focus:outline-none"
         >
@@ -42,6 +48,13 @@ function Navbar() {
           <a href="#about" onClick={() => setIsOpen(false)} className="block text-slate-300 hover:text-sky-400">Chi Sono</a>
           <a href="#skills" onClick={() => setIsOpen(false)} className="block text-slate-300 hover:text-sky-400">Competenze</a>
           <a href="#projects" onClick={() => setIsOpen(false)} className="block text-slate-300 hover:text-sky-400">Progetti</a>
+          <Link
+  to="/graphic-design"
+  onClick={() => setIsOpen(false)}
+  className="block text-slate-300 hover:text-sky-400"
+>
+  Graphic Design
+</Link>
           <a href="#contact" onClick={() => setIsOpen(false)} className="block text-center px-4 py-2 bg-sky-600 text-white rounded-lg">Contattami</a>
         </div>
       )}
