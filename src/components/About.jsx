@@ -139,7 +139,7 @@ function About() {
               <div className="relative w-full h-full rounded-full overflow-hidden border-[8px] border-white shadow-2xl bg-slate-100">
 
                 <img
-                  src="/image/foto-mariana.jpeg"
+                  src="/image/foto-mariana.png"
                   alt="Mariana Tabacaru - Full Stack Developer e Graphic Designer"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
